@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Everjobs Suite" thread-count="2" preserve-order = "true" verbose = "8" parallel="tests">
+<test name="SeleniumTest" >
+<classes>
+<class name="com.qa.auto.modules.TestRunner" />
+</classes>
+</test>
+<test name="SeleniumTest1" >
+<classes>
+<class name="com.qa.auto.modules.TestRunner1" />
+</classes>
+</test>
+</suite>
